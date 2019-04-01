@@ -1,0 +1,95 @@
+/* ヘッダ */
+header {
+    height: 5%;
+    width: 100%;
+    background-color: rgba(134, 182, 92, 0.5);
+    /* opacity: 0.5; */
+    position: fixed;
+
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.title img {
+    width: auto;
+    height: 100%;
+}
+
+.menu ul {
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.menu li {
+    float: left;
+    list-style: none;
+    width: 100px;
+    height: auto;
+}
+
+/* メインコンテンツ */
+
+body {
+    background-color: #fafafa;
+}
+
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10%;
+    background-color: #ffffff;
+}
+
+h1 {
+    padding-left: 2%;
+    border-bottom: solid 2px #98C794;
+}
+
+h2 {
+    padding-left: 2%;
+    border-bottom: solid 1px #98C794;
+}
+
+.slideshow {
+    width: 100px;
+    overflow: hidden;
+    margin: 2em auto;
+    border: solid 10px #ffffff;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);    
+}
+
+.slideshow-wrapper {
+    width: 300%; /* 枚数 x 100% */
+    position: relative;
+    left: 0;
+    will-change: transform;
+    animation: slider 20s infinite;
+}
+
+.slideshow-element {
+    width: 100px;
+    height: 100%;
+    list-style: none;
+    float: left;
+    position: relative;
+}
+
+.slideshow img {
+    width: 100px;
+}
+
+@-webkit-keyframes slider {
+    0% { transform: translateX(0); }
+    33% { transform: translateX(-100px); }
+    66% { transform: translateX(-200px); }
+    100% { transform: translateX(0); }
+}
+
+/* フッタ */
+footer {
+    background-color: #ffffff;
+}
