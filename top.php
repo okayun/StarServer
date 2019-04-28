@@ -5,9 +5,9 @@
     <h2> 画像 </h2>
     <div class="slideshow">
         <div class="slideshow-wrapper">
-            <div class="slideshow-element"><img src=<?php echo ROOT . "img/muteki.jpg";?> alt="muteki"></div>
-            <div class="slideshow-element"><img src=<?php echo ROOT . "img/yoshi.png";?> alt="yoshi"></div>
-            <div class="slideshow-element"><img src=<?php echo ROOT . "img/hinnyu.jpg";?> alt="hinnyu"></div>
+            <div class="slideshow-element"><img src="img/muteki.jpg" alt="muteki"></div>
+            <div class="slideshow-element"><img src="img/yoshi.png" alt="yoshi"></div>
+            <div class="slideshow-element"><img src="img/hinnyu.jpg" alt="hinnyu"></div>
         </div>
     </div>
     -->

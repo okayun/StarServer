@@ -21,13 +21,13 @@
 <header>
     <div class="global-menu">
         <div class="logo">
-            <img src=<?php echo ROOT . "./img/icon.png" ?> alt="logo">
+            <img src="./img/icon.png" alt="logo">
         </div>
-        <span class="menu-icon"><img src=<?php echo ROOT . "./img/icon.png" ?> alt="logo"></span>
+        <span class="menu-icon"><img src="./img/icon.png" alt="logo"></span>
         <div class="menu">
-            <a href="#menu1">menu1</a>
-            <a href="#menu2">menu2</a>
-            <a href="#menu3">menu3</a>
+            <div class="menu-item"><a href="#menu1">menu1</a></div>
+            <div class="menu-item"><a href="#menu2">menu2</a></div>
+            <div class="menu-item"><a href="#menu3">menu3</a></div>
         </div>
     </div>
 </header>
