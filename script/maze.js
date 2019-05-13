@@ -3,7 +3,7 @@ var Maze = {};
 
 Maze.HEIGHT = 6 + 1;
 Maze.WIDTH = 6 + 1;
-Maze.EDGE = 71; // デフォルトが 7x7 のため
+Maze.EDGE = 57; // デフォルトが 7x7 のため
 
 Maze.ACTION = 4;
 Maze.ALPHA = 0.05;
@@ -449,13 +449,13 @@ Maze.clearCanvas = function () {
 }
 
 Maze.allClearCanvas = function () {
-    ctx.clearRect(0, 0, 500, 500);
+    ctx.clearRect(0, 0, 400, 400);
 }
 
 Maze.changeSize = function () {
     Maze.HEIGHT = document.maze.maze_h.value;
     Maze.WIDTH = document.maze.maze_w.value;
-    Maze.EDGE = Math.min(Math.floor(500 / Math.max(Maze.HEIGHT, Maze.WIDTH)), 100);
+    Maze.EDGE = Math.min(Math.floor(400 / Math.max(Maze.HEIGHT, Maze.WIDTH)), 100);
     Maze.allClearCanvas();
     Maze.init();
     setTimeout('Maze.draw()', 200);

@@ -15,7 +15,7 @@
     <script src="./script/maze.js"></script>
     <script src="./script/test.js"></script>
 
-    <title> テスト </title>
+    <title> ホームページ(仮) </title>
 </head>
 
 <header>
@@ -24,11 +24,14 @@
             <img src="./img/icon.png" alt="logo">
         </div>
         <span class="menu-icon"><img src="./img/icon.png" alt="logo"></span>
+        
         <div class="menu">
+            
             <div class="menu-item"><a href="#menu1">menu1</a></div>
             <div class="menu-item"><a href="#menu2">menu2</a></div>
             <div class="menu-item"><a href="#menu3">menu3</a></div>
         </div>
+        
     </div>
 </header>
 
