@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* ヘッダ */
 header {
     height: 7%;
@@ -9,7 +13,7 @@ header {
     background-color: rgba(24, 39, 42, 0.7);
     /* opacity: 0.5; */
     position: fixed;
-    z-index: 10;
+    /*z-index: 10;*/
 
     display: -webkit-flex;
     display: -webkit-box;
@@ -27,6 +31,7 @@ header {
     width: auto;
     height: 100%;
     float: left;
+    margin-left: 5%;
 }
 
 .global-menu .logo img {
@@ -36,19 +41,36 @@ header {
 }
 
 .menu {
+    height: 100%;
+    /*
+    width: 45%;
+    */
+    margin-right: 5%;
+    margin-left: 50%;
     float: right;
 }
 
-.menu .menu-item {
-    font-size: 20px;
-    color: white;
+.menu-item {
+    font-size: 1.1em;
+    /*
+    height: 100%;
+    padding: 10px 25px 27px 25px;
     float: left;
-    display: block;
-    line-height: 100%;
-    padding: 0 25px;
     height: auto;
-    text-decoration: none;
+    margin-right: 5%;
+    clear: both;
+    line-height: 100%;
+    float: left;
+    */
+    height: 100%;
+    padding: 0 5%;
+    display: inline-block;
     transition-duration: 1s;
+}
+
+.menu-item a {
+    vertical-align: -45%;
+    color: white;
 }
 
 .menu-item:hover {
@@ -69,7 +91,8 @@ header {
     .menu {
         display: none;
     }
-
+    
+    /*
     .logo {
         display: none;
     }
@@ -77,16 +100,12 @@ header {
     .menu-icon {
         display: block;
     }
-
+    
     .menu-icon img {
         display: block;
         height: 64px;
     }
-
-    .menu {
-        display: none;
-    }
-
+    */
 }
 
 /* メインコンテンツ */
@@ -143,12 +162,14 @@ h2 {
     width: 100px;
 }
 
+/*
 @-webkit-keyframes slider {
     0% { transform: translateX(0); }
     33% { transform: translateX(-100px); }
     66% { transform: translateX(-200px); }
     100% { transform: translateX(0); }
 }
+*/
 
 .section {
     /*margin: 10% 5%;*/
